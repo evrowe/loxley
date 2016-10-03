@@ -1,0 +1,26 @@
+#####################
+# Vendor Libraries
+#####################
+node_modules/
+
+#####################
+# Compiled Assets
+#####################
+dist/build/
+
+#####################
+# Debug
+#####################
+npm-debug.log
+*.db
+/libpeerconnection.log
+
+#####################
+# Misc
+#####################
+/.sass-cache
+/connect.lock
+/coverage/*
+.tags*
+env.js
+.env

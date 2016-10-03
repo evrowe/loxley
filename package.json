@@ -2,11 +2,30 @@
   "name": "loxley",
   "version": "1.0.0",
   "description": "A totally nifty application for giving credit where it is due",
-  "repository": "https://github.com/evrowe/loxley",
+  "private": true,
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/evrowe/loxley"
+  },
+  "engines": {
+    "node": "6.7.0"
+  },
   "author": "Evan Rowe <er@evan-rowe.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "bookshelf": "^0.10.2",
+    "compression": "^1.6.2",
+    "cors": "^2.8.1",
+    "css-loader": "^0.25.0",
+    "dotenv": "^2.0.0",
+    "express": "^4.14.0",
+    "knex": "^0.12.2",
+    "morgan": "^1.7.0",
+    "passport": "^0.3.2"
+  }
 }
