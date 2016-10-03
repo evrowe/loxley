@@ -1,0 +1,12 @@
+{
+  "name": "loxley",
+  "version": "1.0.0",
+  "description": "A totally nifty application for giving credit where it is due",
+  "repository": "https://github.com/evrowe/loxley",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Evan Rowe <er@evan-rowe.com>",
+  "license": "MIT"
+}
